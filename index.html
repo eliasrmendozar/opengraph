@@ -6,6 +6,12 @@
     <meta property="og:title" content="Birds of Pray" />
     <meta property="og:type" content="video.movie" />
     <meta property="og:url" content="https://www.imdb.com/title/tt7713068/" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@flickr" />
+    <meta name="twitter:title" content="Aves de Presa 2020" />
+    <meta name="twitter:description" content="irds of Pray" />
+    <meta name="twitter:image" content="https://vignette.wikia.nocookie.net/batman/images/7/77/BOP_poster_05.png/revision/latest?cb=20191206190029&path-prefix=es" />
   
     <title>Pelicula</title>
 </head>
@@ -23,10 +29,41 @@
                 <p>Birds of Prey película del universo DC dondenel ppersonaje Harley Quinn toma protagonismo despuésn de su ruptura con el Joker.
 
                     <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
+
+                    twttr.widgets.createShareButton(
+  "https:\/\/dev.twitter.com\/web\/tweet-button",
+  document.getElementById("tweet-container"),
+  {
+    size: "large",
+    text: "custom share text",
+    hashtags: "example,demo",
+    via: "twitterdev",
+    related: "twitterapi,twitter"
+  }
+);
+
+
+
                 </p>
             </article>
         </section>
     </main>
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 </body>
 
 </html>
